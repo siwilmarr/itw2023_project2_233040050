@@ -1,0 +1,90 @@
+* {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.jumbotron {
+  height: 100vh;
+  padding: 6rem;
+  background-image: url(img/bg.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron i {
+  font-size: 35px;
+  margin-right: 20px;
+  padding: 8px;
+  color: #fff;
+  background-color: #000000;
+  border-radius: 50%;
+  transition: all ease 0.45s;
+}
+
+.jumbotron i:hover {
+  background-color: #fff;
+  color: #000000;
+  transform: translateY(-5px);
+}
+.display-4 {
+  font-weight: 600;
+  font-size: 60px;
+  text-wrap: nowrap;
+}
+
+span {
+  color: black;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.card {
+  border-radius: 12px;
+  border: 2px solid black;
+  min-height: 665px;
+}
+
+.card-title {
+  font-size: 50px;
+}
+
+.card-subtitle {
+  font-size: 20px;
+}
+
+.card-text {
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+.card-img-top {
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
+
+@media only screen and (max-width: 700px) {
+  .display-4 {
+    font-weight: 600;
+    font-size: 31px;
+  }
+
+  .jumbotron i {
+    font-size: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .jumbotron img {
+    width: 210px;
+  }
+}
